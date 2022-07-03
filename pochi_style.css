@@ -1,0 +1,64 @@
+:root {
+    --primary-color: #8dc6ff; 
+    --off-white: #f3f4f6;
+    --dark-gray: #6b7280;
+}
+
+body {
+    margin: 0px auto;
+    width: 100%;
+    background-color: #e4f1fe; 
+}
+
+hr {
+    margin: 2rem 0rem;
+}
+
+.heading{
+    font-family:'Algerian';
+    font-style: initial;
+    text-align: center;
+    text-decoration: solid;
+    color: #22313f;
+    background-color: #8dc6ff; 
+    padding: 14px 20px;
+    margin: 8px 20px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px #22313f;
+}
+
+.intro , .profile , .links{
+    text-decoration: underline;
+    padding-left: 30px;
+}
+
+.profile2{
+    padding-left: 30px;
+}
+
+.para{
+    padding-left: 30px;
+}
+
+.cat{
+    text-shadow: #22313f;
+}
+
+img{
+    border-radius: 80px;
+    margin-right: 70px;
+    margin-top: 70px;
+    box-shadow: 5px 5px 5px #22313f;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 1rem 1rem;
+    text-align: center;
+    color: #22313f;
+    padding: 14px 20px;
+    margin: 8px 20px;    
+    border-radius: 10px; 
+    /* border-top-right-radius: 1rem; */
+    box-shadow: 5px 5px 5px #22313f;
+}
